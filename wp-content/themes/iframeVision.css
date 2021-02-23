@@ -1,0 +1,16 @@
+#wpwrap{
+	height: 100%;
+}
+#wpcontent{
+	padding-left: 0;
+	overflow: hidden;
+	position: relative;
+}
+#wpcontent iframe#thisSite{
+	height: 100%;
+	position: absolute;
+	width: calc(100% + 17px);
+}
+#wpbody-content {
+    padding-bottom: 0px;
+}
